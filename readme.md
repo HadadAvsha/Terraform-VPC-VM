@@ -1,6 +1,6 @@
 ![image](https://user-images.githubusercontent.com/106066816/213911775-220f4d15-8fb4-4b1e-b519-adeb6c5129aa.png)
 ![image](https://user-images.githubusercontent.com/106066816/213911792-f726c310-2490-4a69-80cb-7558ae40ead3.png)<br/>
-Use Terraform to deploy EC2 instance and VPC in AWS as well as load balancer<br/>
+Use Terraform to deploy EC2 instance and VPC in AWS as well as load balancer.<br/>
 =============================================================================================
 
 # Prerequisites:<br/>
