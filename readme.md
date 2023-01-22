@@ -28,8 +28,8 @@ No resources.
 | <a name="input_instance_name"></a> [instance\_name](#input\_instance\_name) | n/a | `list` | <pre>[<br>  "Avsha_inst1",<br>  "Avsha_inst2"<br>]</pre> | no |
 | <a name="input_prefix"></a> [prefix](#input\_prefix) | naming prefix | `string` | n/a | yes |
 | <a name="input_public_subnet_cidrs"></a> [public\_subnet\_cidrs](#input\_public\_subnet\_cidrs) | n/a | `list` | <pre>[<br>  "10.0.1.0/24",<br>  "10.0.2.0/24"<br>]</pre> | no |
-| <a name="input_ssh_key_name"></a> [ssh\_key\_name](#input\_ssh\_key\_name) | Enter a name for youre ssh key | `string` | `""` | no |
-| <a name="input_ssh_key_public"></a> [ssh\_key\_public](#input\_ssh\_key\_public) | Paste public key here | `string` | `""` | no |
+| <a name="input_ssh_key_name"></a> [ssh\_key\_name](#input\_ssh\_key\_name) | Enter a name for youre ssh key | `string` | `""` | yes |
+| <a name="input_ssh_key_public"></a> [ssh\_key\_public](#input\_ssh\_key\_public) | Paste public key here | `string` | `""` | yes |
 
 ## Outputs
 
