@@ -1,3 +1,13 @@
+![image](https://user-images.githubusercontent.com/106066816/213911775-220f4d15-8fb4-4b1e-b519-adeb6c5129aa.png)
+![image](https://user-images.githubusercontent.com/106066816/213911792-f726c310-2490-4a69-80cb-7558ae40ead3.png)<br/>
+Use Terraform to deploy EC2 instance and VPC in AWS as well as load balancer<br/>
+=============================================================================================
+
+# Prerequisites:<br/>
+* In order to Deploy this template you will need to install Terraform and make sure to have AWS CLI and your ~/.aws/credentials set or use [this](https://developer.hashicorp.com/terraform/tutorials/aws-get-started/aws-build) guide.<br/>
+* Change variables in: __variables.tf__ and __terraform.tfvars__ accordingly.<br/>
+* Set number of __public_subnet_cidrs__ in __terraform.tfvars__ to match your desired VMs <br/>
+* In __provider.tf__ modify backend to fit your bucket or delete the block for local backend.<br/>
 <!-- BEGIN_TF_DOCS -->
 ## Requirements
 
